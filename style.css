@@ -38,6 +38,8 @@ body {
     width: 300px; height: 300px;
     border: 10px solid pink;
     border-radius: 50%;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 
