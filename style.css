@@ -18,7 +18,7 @@ body {
 .desc {
     background: antiquewhite;
     padding: 20px;
-    color: palevioletred
+    color: red
 }
 
 .things {
@@ -64,6 +64,7 @@ body {
 }
 
 .card {
+    color:purple;
     background: ivory;
     padding-left: auto;
     padding-right: auto;
