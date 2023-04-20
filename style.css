@@ -1,82 +1,78 @@
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body {
+  }
+  body {
     background-image: url("images/kodaikanal.jpg");
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#place {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  
+  #place {
     text-align: center;
-    color:peachpuff;
-}
-
-.desc {
+    color: peachpuff;
+  }
+  
+  .desc {
     background: antiquewhite;
     padding: 20px;
-    color: red
-}
-
-.things {
+    color: red;
+  }
+  
+  .things {
     margin: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}
-
-#top {
+  }
+  
+  #top {
     display: block;
-    margin: 3px;
-    color:brown
-}
-
-#trek-img {
-    width: 300px; height: 300px;
-    border: 10px solid pink;
-    border-radius: 50%;
+    margin-left: 3px;
+    padding: 30px;
+    margin: 30px auto;
+    color: white;
+    width: max-content;
+    background-color: brown;
+  }
+  
+  #trek-img {
     padding-left: auto;
     padding-right: auto;
-}
-
-
-#camp-img {
-    width: 300px; height: 300px;
+  }
+  .top-img {
+    width: 300px;
+    height: 300px;
     border: 10px solid pink;
     border-radius: 50%;
-}
-
-#hike-img {
-    width: 300px; height: 300px;
-    border: 10px solid pink;
-    border-radius: 50%;
-}
-
-.guide {
-    margin-top: 20px;
+    margin: 30px;
+  }
+  .guide {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.card {
-    color:purple;
+  }
+  
+  .card {
+    color: purple;
     background: ivory;
-    padding-left: auto;
-    padding-right: auto;
-    width: 300px;
-    height: 300px;
-}
-
-.avatar {
+    padding: 30px;
+    margin-bottom: 30px;
+ 
+  }
+  
+  .avatar {
     margin-top: 20px;
     margin-bottom: 10px;
     padding-top: 10px;
-    height:100 px;
+    height: 100 px;
     width: 100px;
     border: 2px solid black;
-}
+  }
+  
